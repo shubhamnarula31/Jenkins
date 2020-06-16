@@ -3,21 +3,29 @@
   <groupId>com.jenkins</groupId>
   <artifactId>jenkins-demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-<properties>
+  <properties>
   <maven.compiler.source>1.6</maven.compiler.source>
   <maven.compiler.target>1.6</maven.compiler.target>
 </properties>
-
-  <dependencies>
+   <dependencies>
   <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
     <version>4.13</version>
     <scope>test</scope>
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-war-plugin -->
+<
+
   
   </dependencies>
+  <packaging>war</packaging>      
   
+  
+     
+
+
+ 
   
 </project>
