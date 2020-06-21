@@ -4,7 +4,7 @@ scm{
 git("https://github.com/shubhamnarula31/Jenkins.git",master)
 }
 triggers{
-scm(* * * * *)
+scm('* * * * *')
 }
 steps{
 maven('clean package','pom.xml')
