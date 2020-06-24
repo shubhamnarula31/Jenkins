@@ -1,8 +1,11 @@
 job('Maven_DSL'){
 description("First Maven job")
-properties {
-        githubProjectUrl('https://github.com/shubhamnarula31/Jenkins.git')
+scm {
+  git {
+    remote {
+      url 'https://github.com/shubhamnarula31/Jenkins.git'
     }
+
 triggers{
 scm('* * * * *')
 }
