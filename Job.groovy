@@ -5,7 +5,8 @@ scm {
     remote {
       url 'https://github.com/shubhamnarula31/Jenkins.git'
     }
-
+}
+}
 triggers{
 scm('* * * * *')
 }
